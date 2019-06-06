@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    font-family: 'Fredoka One', cursive;
+    background-color: lightgray;
+    background: url(../images/bg-img.png);
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+#game{
+    background-color: #fff;
+    padding: 5rem;
+    margin-top: 5rem;
+    background-color: rgba(39, 57, 176, 0.56);
+    padding-top: 20px;
+    border: 20px solid rgba(31, 92, 179, 0.74);
+    margin-top: 20px;
+    background-color: rgba(39, 57, 176, 0.56);
+}
+h1{
+    color: #03fdff;
+    font-weight: bold;
+    font-size: 3em;
+}
+h2{
+    color: #03fdff;
+    font-weight: bold;
+}
+h1, h2, h3, h4{
+    text-shadow: 2px 2px 6.5px #000;
+}
+#game span{
+    color: #03fdff;
+    font-weight: bold;
+}
+.list-inline li {
+    float: left;
+    margin-right: 10px;
+    background-color: #1f4fa4c9;
+    border: 5px solid #03fdff;
+}
+.list-inline img {
+    width: 100px;
+    box-shadow: 1px 2px 21px #101010;
+    padding: 10px;
+}

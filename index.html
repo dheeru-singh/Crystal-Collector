@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 ">
+            <br/>
+            <h1 class="text-center">Crystals Collector!</h1>
+            <div id="game">
+           
+            <div>
+                <p>You will be given a random number at the start at the start of the game.</p>
+                <p>There are four Crystals below. By clicking on a crystal you will add a 
+                 specific amount of points to your total score.</p>
+                <p>You win the game by matching your total score to random number, you lose the game 
+                if your total score goes aboue the random number.</p>
+                <p>The value of each crystal is hidden from you until you click on it.</p>
+                <p>Each time when the game starts, the game will change the values of each crystal </p>
+
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <br/>
+                    <h2 id="computer-guess">34</h2>
+                    <br/>
+                </div>
+                <div class="col-sm-6">
+                    <h4 id="result"> </h4>
+                    <h4>Wins : <span id="win-score">0</span></h4>
+                    <h4>Losses : <span id="losses-score">0</span></h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                <ul class="list-inline">
+                    <li><img class="crystal1" src="assets/images/crystal2.png"/></li>
+                    <li><img class="crystal2" src="assets/images/crystal4.png"/></li>
+                    <li><img class="crystal3" src="assets/images/crystal5.png"/></li>
+                    <li><img class="crystal4" src="assets/images/crystal6.png"/></li>
+                </ul>
+
+                </div>
+            </div>
+            <br/>
+            
+            <h4>Your total score is</h4>
+            <h2 id="user-score">0</h2>
+            
+           
+           </div>
+        </div>
+    </div>
+
+
+</div>
+
+<script src="assets/js/game.js"></script>
+</body>
+</html>
